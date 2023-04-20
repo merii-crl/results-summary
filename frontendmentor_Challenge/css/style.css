@@ -1,0 +1,182 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #c8c7ff;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1;
+  height: 100vh;
+}
+
+/* GENERAL */
+
+.component {
+  /* 1140px */
+
+  max-width: 144rem;
+  padding: 0 3.2rem;
+  margin: 12.8rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.box1,
+.box2 {
+  width: 40%;
+  height: 55rem;
+  border-radius: 25px;
+
+}
+
+.title {
+  font-size: 2rem;
+  margin: 4.8rem 0;
+  font-weight: 800;
+}
+
+
+
+/* RESULT SECTION */
+
+.box1 {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  text-align: center;
+  box-shadow: -5px -15px 100px 5px rgba(105, 105, 105, 0.1);
+}
+
+.result {
+  line-height: 1.3;
+}
+
+
+.color-score {
+  border-radius: 50%;
+  padding: 4rem;
+  width: 20rem;
+  height: 20rem;
+  display: inline-block;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.score {
+  font-size: 7.4rem;
+  color: #fff;
+}
+
+.result-span {
+  font-size: 1.6rem;
+  display: inline-block;
+}
+
+.title-text {
+  font-size: 3rem;
+  margin-top: 4.4rem;
+  color: #fff;
+
+}
+
+.text {
+  display: inline-block;
+  padding: 1rem 6.4rem;
+  margin-top: 0.8rem;
+}
+
+/* SUMMARY SECTION */
+
+.box2 {
+  padding: 0 4.8rem;
+  box-shadow: 5px 15px 100px 5px rgba(105, 105, 105, 0.1);
+}
+
+.symbol-1 {
+  color: #ff5757;
+}
+
+.symbol {
+  display: flex;
+  align-items: center;
+}
+
+.symbol-2 {
+  color: hsl(39, 100%, 56%);
+}
+
+.symbol-3 {
+  color: hsl(166, 100%, 37%);
+}
+
+.symbol-4 {
+  color: hsl(234, 85%, 45%);
+}
+
+.total-score {
+  color: #303b5a;
+}
+
+.out-of {
+  color: hsl(241, 100%, 89%);
+}
+
+.title--sum {
+  color: #303b5a;
+}
+
+.items-1 {
+  background-color: rgba(255, 87, 87, 0.07);
+}
+
+.items-2 {
+  background-color: rgba(255, 177, 31, 0.07);
+}
+
+.items-3 {
+  background-color: rgba(0, 189, 145, 0.07);
+}
+
+.items-4 {
+  background-color: rgba(17, 36, 212, 0.07);
+}
+
+
+.symbol-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2.4rem;
+  padding: 1.5rem;
+  border-radius: 7px;
+}
+
+.symbol-items:last-child {
+  margin-bottom: 6.4rem;
+}
+
+.btn-con {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 1.5rem 40%;
+  background-color: #303b5a;
+  color: #fff;
+  font-size: 1.8rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 40px;
+}
+
+.btn:hover {
+  background-color: #354570;
+}

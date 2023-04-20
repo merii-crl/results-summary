@@ -1,0 +1,120 @@
+@media (max-width: 1200px) {
+  .component {
+    max-width: 120rem;
+    padding: 0 2.8rem;
+    margin: 10.2rem;
+  }
+
+}
+
+@media (max-width: 1130px) {
+
+
+  .text {
+    padding: 1rem 4.8rem;
+    margin-top: 0.8rem;
+  }
+
+  .component {
+    padding: 0 2rem;
+    margin: 10rem;
+  }
+}
+
+@media (max-width: 1050px) {
+
+  .component {
+    padding: 0 0.8rem;
+    margin: 6rem;
+  }
+
+  .score {
+    font-size: 6.3rem;
+  }
+
+  .color-score {
+    border-radius: 50%;
+    padding: 3rem;
+  }
+
+  .result-span {
+    font-size: 1.4rem;
+  }
+
+  .title-text {
+    font-size: 2.8rem;
+    margin-top: 3.2rem;
+
+  }
+}
+
+@media (max-width: 1050px) {
+
+  .component {
+    padding: 0 0.6rem;
+    margin: 4rem;
+  }
+}
+
+@media (max-width: 990px) {
+
+  .component {
+    margin: 0;
+  }
+
+
+  .title-text {
+    font-size: 3rem;
+    margin-top: 3rem;
+  }
+
+  .text {
+
+    padding: 1rem 4.4rem;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 830px) {
+  body {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 730px) {
+
+  body {
+
+
+    font-size: 1.6rem;
+    line-height: 1;
+
+  }
+
+  .title-text {
+    margin-top: 2rem;
+  }
+
+  .color-score {
+    padding: 2rem;
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .box1,
+  .box2 {
+    width: 50%;
+    height: 50rem;
+    border-radius: 25px;
+
+  }
+
+  .component {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+}
